@@ -47,6 +47,7 @@ const Projects = () => (
           </div>
         </div>
       ))}
+      <small>Some source code are not available due to privacy policy.</small>
     </div>
   </Section>
 );

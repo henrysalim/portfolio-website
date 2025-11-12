@@ -5,8 +5,8 @@ const portfolioData = {
     email: "henrysalim22@gmail.com",
     phone: "+6281385758934",
     location: "Tangerang, Banten, Indonesia",
-    linkedin: "https://linkedin.com/in/your-profile", // Placeholder
-    github: "https://github.com/your-profile", // Placeholder
+    linkedin: "https://linkedin.com/in/your-profile",
+    github: "https://github.com/henrysalim",
   },
   about:
     "A highly motivated 3rd-year undergraduate student specializing in Backend & Frontend Development. Throughout my studies, I have actively served in various campus organizations, where I have led and contributed directly to the development of real-world applications. I possess a solid understanding of MVC and design patterns using the Laravel Framework, coupled with strong OOP capabilities in Java and Kotlin. While my primary focus is backend, I also hold secondary skills in frontend development (React JS/Next JS), allowing me to grasp the bigger picture of the software development lifecycle.",
@@ -78,12 +78,28 @@ const portfolioData = {
   ],
   projects: [
     {
+      title: "UMN Informatics Website",
+      tech: "Laravel, Bootstrap",
+      description:
+        "Developed an academic guidance system using Laravel for robust backend logic and secure API handling. The user interface was built with Bootstrap, ensuring a clean, fully responsive, and mobile-first design.",
+      link: "https://inf.umn.ac.id", // Placeholder
+      sourceCode: "#", // Placeholder
+    },
+    {
+      title: "PT Nirmana Kreasi Teknologi (NARATECH) Website",
+      tech: "Vue JS, Tailwind CSS",
+      description:
+        "Developed a dynamic and responsive company profile website using Vue JS, tailored with Tailwind CSS for modern and clean UI.",
+      link: "#", // Placeholder
+      sourceCode: "https://github.com/henrysalim/naratech", // Placeholder
+    },
+    {
       title: "Perkenalan Prodi Informatika 2025 Website",
       tech: "Next JS, TailwindCSS",
       description:
         "Developed the website using Next JS as frontend and backend framework to ensure flexibility and easy deployment via Vercel.",
-      link: "#", // Placeholder
-      sourceCode: "#", // Placeholder
+      link: "https://ppif.umn.ac.id", // Placeholder
+      sourceCode: "https://github.com/henrysalim/ppif-2025-website", // Placeholder
     },
     {
       title: "UMN Medical Center Website",
@@ -91,23 +107,7 @@ const portfolioData = {
       description:
         "Developed the website using Laravel Framework to ensure clear separation of concerns and maintainable code, including Authentication, Security, and CRUD operations.",
       link: "#", // Placeholder
-      sourceCode: "#", // Placeholder
-    },
-    {
-      title: "UMN Tech Festival Website",
-      tech: "Laravel, React JS, Inertia JS, Node JS, Tailwind CSS, MySQL, Midtrans",
-      description:
-        "Developed a dynamic and responsive website. Integrated Midtrans payment gateway for seamless event registration and ticket purchasing.",
-      link: "#", // Placeholder
-      sourceCode: "#", // Placeholder
-    },
-    {
-      title: "Computer Science Shelter Website",
-      tech: "Laravel, React JS, Inertia JS, Tailwind CSS, MySQL",
-      description:
-        "Developed a dynamic and responsive website. Implemented a CRUD application and integrated UMN Single Sign-On (SSO) for user authentication.",
-      link: "https://github.com/your-profile/css-website", // Placeholder
-      sourceCode: "#", // Placeholder
+      sourceCode: "https://github.com/henrysalim/umn-medic-website", // Placeholder
     },
   ],
 };

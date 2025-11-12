@@ -1,6 +1,9 @@
 import portfolioData from "@/app/data/data";
 
-const NavLinks = ({ className = "" }) => {
+const NavLinks = ({
+  className = "",
+  setIsMobileMenuOpen,
+}) => {
   const navItems = ["About", "Skills", "Experience", "Projects"];
 
   return (

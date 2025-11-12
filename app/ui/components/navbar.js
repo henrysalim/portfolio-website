@@ -19,7 +19,10 @@ const Navbar = () => {
             </span>
           </a>
           <div className="hidden md:block">
-            <NavLinks className="flex items-center space-x-4" />
+            <NavLinks
+              className="flex items-center space-x-4"
+              setIsMobileMenuOpen={setIsMobileMenuOpen}
+            />
           </div>
           <div className="hidden md:block">
             <a

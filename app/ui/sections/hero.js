@@ -21,23 +21,23 @@ const Hero = () => (
         href={portfolioData.contact.github}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
+        className="inline-flex ease-in-out duration-300 hover:-translate-y-2 items-center gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
       >
-        <GithubIcon className="h-5 w-5" />
+        <GithubIcon />
         GitHub
       </a>
       <a
         href={portfolioData.contact.linkedin}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
+        className="inline-flex items-center ease-in-out duration-300 hover:-translate-y-2 gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
       >
         <LinkedinIcon className="h-5 w-5" />
         LinkedIn
       </a>
       <a
         href={`mailto:${portfolioData.contact.email}`}
-        className="inline-flex items-center gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
+        className="inline-flex items-center ease-in-out duration-300 hover:-translate-y-2 gap-2 px-6 py-3 border border-gray-700 text-sm font-medium rounded-lg text-gray-300 bg-gray-900 hover:bg-gray-800 hover:border-gray-600 transition-all"
       >
         <MailIcon className="h-5 w-5" />
         Email
