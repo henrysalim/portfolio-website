@@ -5,7 +5,7 @@ const portfolioData = {
     email: "henrysalim22@gmail.com",
     phone: "+6281385758934",
     location: "Tangerang, Banten, Indonesia",
-    linkedin: "https://linkedin.com/in/your-profile",
+    linkedin: "https://linkedin.com/in/henrysalim",
     github: "https://github.com/henrysalim",
   },
   about:
