@@ -9,7 +9,7 @@ const Hero = () => (
     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400">
       {portfolioData.name}
     </h1>
-    <p className="mt-6 text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto">
+    <p className="mt-6 text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto">
       {portfolioData.headline}
       <br />
       <span className="text-lg text-gray-500">

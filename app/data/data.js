@@ -1,6 +1,7 @@
 const portfolioData = {
   name: "Henry Salim",
-  headline: "3rd-Year Informatics Student",
+  headline:
+    "3rd-Year Informatics Student | Software Engineering & AI Enthusiast",
   contact: {
     email: "henrysalim22@gmail.com",
     phone: "+6281385758934",
@@ -9,7 +10,7 @@ const portfolioData = {
     github: "https://github.com/henrysalim",
   },
   about:
-    "A highly motivated 3rd-year undergraduate student specializing in Backend & Frontend Development. Throughout my studies, I have actively served in various campus organizations, where I have led and contributed directly to the development of real-world applications. I possess a solid understanding of MVC and design patterns using the Laravel Framework, coupled with strong OOP capabilities in Java and Kotlin. While my primary focus is backend, I also hold secondary skills in frontend development (React JS/Next JS), allowing me to grasp the bigger picture of the software development lifecycle.",
+    "A highly motivated 3rd-year undergraduate student specializing in Software Engineering. My core expertise lies in Fullstack Development, with a primary focus on Frontend (React JS/Next JS/Vue JS) and Backend (Laravel, Java, Go). As a Machine Learning enthusiast, I am eager to apply data-driven insights to software solutions by using Python (Keras, PyTorch). I possess a solid understanding of MVC and design patterns using the Laravel Framework, coupled with strong OOP capabilities in Java and Kotlin. I have a proven track record of leading and contributing to real-world applications within campus organizations, mastering the full software development lifecycle.",
   skills: [
     {
       category: "Languages",
@@ -26,13 +27,6 @@ const portfolioData = {
   ],
   experiences: [
     {
-      role: "Laboratory Assistant",
-      company: "Faculty of Engineering & Informatics, Dept. of Informatics",
-      date: "Feb 2025 - June 2025",
-      description:
-        "Instructed the practical application and core concepts of Data Structures & Algorithms (DSA) for the class of 2024.",
-    },
-    {
       role: "Google Student Ambassador",
       company: "Google Indonesia & Dicoding",
       date: "Sept 2025 - Present",
@@ -42,16 +36,9 @@ const portfolioData = {
     {
       role: "Secretary",
       company: "Himpunan Mahasiswa Informatika (HMIF) UMN",
-      date: "Dec 2024 - Present",
+      date: "Dec 2024 - Dec 2025",
       description:
         "Supervise Research & Development Division and collaborate with Project Manager Division to manage Organizational Programs.",
-    },
-    {
-      role: "Web Developer & IT Support Internship",
-      company: "PT Tays Bogainti Selaras",
-      date: "Oct 2021 - Nov 2021",
-      description:
-        "Designed and developed an internal Quality Check (QC) website (React JS, Bootstrap) and provided end-to-end technical support.",
     },
     {
       role: "Head of Website Division",
@@ -60,11 +47,17 @@ const portfolioData = {
       description:
         "Supervised team members in developing an interactive website with Next JS and TailwindCSS.",
     },
-    // Adding a few more from the CV for completeness
+    {
+      role: "Laboratory Assistant",
+      company: "Faculty of Engineering & Informatics, Dept. of Informatics",
+      date: "Feb 2025 - June 2025",
+      description:
+        "Instructed the practical application and core concepts of Data Structures & Algorithms (DSA) for the class of 2024.",
+    },
     {
       role: "Deputy Head Of Research & Development",
       company: "Himpunan Mahasiswa Informatika (HMIF) UMN",
-      date: "Nov 2023 - Nov 2024",
+      date: "Dec 2023 - Dec 2024",
       description:
         "Managed and updated the HMIF UMN website as a Full Stack Developer. Led the frontend update for the website.",
     },
@@ -74,6 +67,13 @@ const portfolioData = {
       date: "Aug 2024 - Sep 2024",
       description:
         "Developed and maintained backend systems using Laravel. Designed and optimized database structures using MySQL.",
+    },
+    {
+      role: "Web Developer & IT Support Internship",
+      company: "PT Tays Bogainti Selaras",
+      date: "Oct 2021 - Nov 2021",
+      description:
+        "Designed and developed an internal Quality Check (QC) website (React JS, Bootstrap) and provided end-to-end technical support.",
     },
   ],
   projects: [
